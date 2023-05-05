@@ -15,10 +15,12 @@ function first_array(){
 
 // using push, pop, shift and unshift
 function second_array(){
-    array2 = [["Messi", 30, "PSG"], 
+    array2 = [
+    ["Messi", 30, "PSG"], 
     ["Rashford", 10, "MUD"], 
     ["Neymar", 10, "PSG"], 
-    "Ronaldo", "mbappe", "sancho"];
+    "Ronaldo", "mbappe", "sancho"
+];
 
     var Messi;
     // using index to find the elements 
@@ -27,16 +29,20 @@ function second_array(){
 
     updated_array = array2;
     console.log(updated_array);
+
     // pushing elements to the end of the array
     updated_array.push("sanchez", "hazard");
     console.log(updated_array);
+    
     // popping the added elements from the end of the array
     updated_array.pop();
     updated_array.pop();
     console.log(updated_array);
+    
     // removing an element from the beginning of the array 
     updated_array.shift();
     console.log(updated_array);
+    
     // adding back the element to the beginning of the array 
     updated_array.unshift(["Messi", 30, "PSG"]);
     console.log(updated_array);
